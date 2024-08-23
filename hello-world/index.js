@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   console.info('Request', req.headers);
   res.end(
     JSON.stringify({
-      data: 'Hello Test 21',
+      data: 'Hello Test 23',
     })
   );
 });
